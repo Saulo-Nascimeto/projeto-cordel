@@ -6,94 +6,70 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@1,100..900&display=swap');
-
-:root {
-    --fonte-Roboto-Condenset: "Roboto Condensed", sans-serif;
-    --fonte-Archivo-Black: "Archivo Black", sans-serif;
-    --fonte-Google-Sans: "Google Sans", sans-serif;
-    --fonte-Oswald: "Oswald", sans-serif;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
- }
 body {
-    background-color:#00ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
 }
-     
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
 header {
     background-color: black;
     color: white;
     text-align: center;
-    font-variant: small-caps;
-    padding: 10px;
-    font-family: var(--fonte-Oswald)
-}
-
-body > header > a {
-    text-decoration: none;
-    color: turquoise;
-}
-  
-body > header > a:hover {
-    text-decoration: underline;
-  }
-
-section {
-    padding-top: 30px; 
-}
-
-section.imagens > p {
-    background-color: rgba(255, 255, 255, 0.267); 
-    border-style: solid 0px 0px 0px ;
+    margin-bottom: 10px;
 }
 
 main {
-    font-family: var(--fonte-Roboto-Condenset);
-    font-weight: bold;
-    border-style: solid;
-    padding-bottom: 30px;
-    margin: 0% 20%;
-    background-color: white;
-    border-style: double;
+    font-style: italic;
+    background-color: rgb(37, 136, 136);
+margin:0em 1em;
+
+}
+
+section > p {
+  text-align: center;
+  color: aliceblue;
+}
+
+section#joaninha > p {
+   background: url(background001.jpg);
+   background-position: center;
+   background-attachment: fixed;
+   background-size: contain;
+   background-repeat: no-repeat;
+   max-width: 100%;
+}
+
+section#cartas > p {
+    background: url(pexels-anntarazevich-5425602.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+  img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+footer, footer > section > p {
+    color: rgba(0, 0, 0, 0.527);
     text-align: center;
+    padding: 20px;
+    background-color: rgb(175, 174, 174);
 }
 
-footer {
-    text-align: center;
-    background-color: rgb(218, 213, 213);
-    padding: 50px;
-   font-family: var(--fonte-Oswald)
-}
 
-footer a {
-    text-decoration: none;
-}
-
-footer a:hover{
-    text-decoration: underline;
- }
-
-.principal {
-    background-color:white;
-}
-
-.imagens {
-padding: 40px;
-background-position: center center;
-background-size:cover;
-background-attachment: fixed;/* Desativar o Fixed no Mobile (Obrigatório para não quebrar) */
-box-shadow: 1px 1px 1px;
-}
-
-#fundo-1{
-    background-image: url(background001.jpg);
-}
-
-#fundo-2{
-    background-image: url(background002.jpg);
-}    
+  
