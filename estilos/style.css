@@ -34,7 +34,7 @@ section > p {
   color: aliceblue;
 }
 section#joaninha > p {
-   background: url(background001.jpg);
+   background: url(../imagens/background001.jpg);
    background-position: center;
    background-attachment: fixed;
    background-size: cover;
@@ -42,7 +42,7 @@ section#joaninha > p {
    max-width: 100%;
 }
 section#cartas > p {
-    background: url(background002.jpg);
+    background: url(../imagens/background002.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
