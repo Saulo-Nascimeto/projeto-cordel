@@ -26,25 +26,32 @@ header {
 main {
     padding-top: 10px;
     font-style: italic;
-    background-color: rgb(37, 136, 136);
+    background-color: rgb(3, 184, 255);
     margin:0em 16;
 }
 section > p {
   text-align: center;
-  color: aliceblue;
 }
-section#joaninha > p {
-   background: url(../imagens/background001.jpg);
+section#flor > p {
+   background: url(../imagens/flor.jpg);
    background-position: center;
    background-attachment: fixed;
-   background-size: cover;
+   background-size: contain;
    background-repeat: no-repeat;
    max-width: 100%;
 }
-section#cartas > p {
-    background: url(../imagens/background002.jpg);
+section#rabisco > p {
+    background: url(../imagens/rabisco.jpg);
     background-position: center;
-    background-size: cover;
+   background-attachment: fixed;
+   background-size: contain;
+   background-repeat: no-repeat;
+   max-width: 100%;
+}
+section#tecnologia > p {
+    background: url(../imagens/tecnologia.jpg);
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
     max-width: 100%;
