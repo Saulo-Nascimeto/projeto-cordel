@@ -1,76 +1,84 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-    padding: 0%;
     margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
-}
-body {
-    background-color: rgb(218, 218, 218) ;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-}
-a {
-    color:blueviolet;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-    color: violet;
+    font-family: 'Google Sans', sans-serif;
 }
 header {
-    background-color: black;
+    background-image: linear-gradient(to right, blue, rgb(39, 39, 250), rgb(100, 100, 253), rgb(149, 149, 247), rgb(175, 175, 248));
     color: white;
+    border: 1px solid black;
     text-align: center;
+    padding: 5px 0px;
+}
+header p {
+    font-style:normal;
+}
+header a {
+    text-decoration: none;
+    color: blue;
+}
+header a:hover {
+    text-decoration: underline;
+}
+body {
+    background-color: blue;
 }
 main {
-    padding-top: 10px;
+    border: 1px solid black;
+    margin: 0em 1em;
+    background-color: white;
+}
+p {
+    color: blue;
+    font-weight: bold;
     font-style: italic;
-    background-color: rgb(3, 184, 255);
-    margin:0em 16;
+    margin: 16px 0px;
+    text-align: center;
 }
-section > p {
-  text-align: center;
-}
-section#flor > p {
-   background: url(../imagens/flor.jpg);
-   background-position: center;
-   background-attachment: fixed;
-   background-size: contain;
-   background-repeat: no-repeat;
-   max-width: 100%;
-}
-section#rabisco > p {
-    background: url(../imagens/rabisco.jpg);
-    background-position: center;
-   background-attachment: fixed;
-   background-size: contain;
-   background-repeat: no-repeat;
-   max-width: 100%;
-}
-section#tecnologia > p {
-    background: url(../imagens/tecnologia.jpg);
-    background-position: center;
+section#flor {
+    background-image: url(../imagens/flor.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    max-width: 100%;
+    background-position: center;
 }
-  img.logo-footer {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+section#rabisco {
+    background-image: url(../imagens/rabisco.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+section#tecnologia {
+    background-image: url(../imagens/tecnologia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 footer {
-    color: rgba(209, 209, 209, 0.527);
-    text-align: center;
-    background-color: rgb(51, 51, 51);
-    padding: 10px;
+    padding: 1em 0em;
+    background-color: rgb(129, 129, 255);
+    color: rgba(0, 0, 0, 0.527);
 }
- footer > section > p {
-    margin-top: 10px;
-    color: rgba(209, 209, 209, 0.527);
+#p-footer p{
+    font-style: normal;
+}
+#p-footer a {
+    color: rgba(0, 0, 0, 0.527);
+    text-decoration: none;
+}
+#p-footer a:hover {
+    color: rgba(0, 0, 0, 0.589);
+}
+#logo-footer {
+    display: flex;
+    justify-content: center;
+}
+#logo-footer img{
+    border-radius: 50%;
+    height: 3em;
 }
 
-
-  
